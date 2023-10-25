@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dijing.CommunicationHelper" Version="1.3.3" />
+    <PackageReference Include="Dijing.SerialPortHelper" Version="1.1.2" />
+    <PackageReference Include="Dijing.SerilogExt" Version="1.2.2" />
+    <PackageReference Include="Iot.Device.Bindings" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
